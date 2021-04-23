@@ -1,0 +1,28 @@
+{
+  "name": "Lab4-API-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ritzoosk/Lab4-API-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ritzoosk/Lab4-API-server/issues"
+  },
+  "homepage": "https://github.com/Ritzoosk/Lab4-API-server#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
+  }
+}
